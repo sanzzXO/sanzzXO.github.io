@@ -2,8 +2,62 @@
     <head>
         <title> Index HTML</title>
     </head>
+    <style>
+         .frame-lingkaran {
+            width: 200px; 
+            height: 200px; 
+            border-radius: 50%;  
+            object-fit: cover; 
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-border{
+            background-color: #4169E1;
+            color: rgb(255, 255, 255);
+            padding: 20px 40px;
+            border-radius: 10px;;
+            width: fit-content;
+            margin-top: 10px;
+        }
+        .link-container {
+            display: flex; 
+            justify-content: center; 
+            margin-top: 10px;
+        }
+        .link-margin {
+                margin: 0 20px;
+        }
+        .datentime {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            text-align: right; ;
+        }
+    
+    </style>
     <body>
-        <h3> Ihsan Nafil Athallah </h3>
-        <p> 1202220218</p>
+
+        <img src="profile.jpeg" alt="Profile Icon" class="frame-lingkaran center">
+        <div class="text-border center">
+            <h1>Ihsan Nafil Athallah</h1>
+            <p>1202220218</p>
+        </div>
+        <div class="link-container">
+            <a href="https://www.instagram.com/_ihsanv1/" class="link-margin">
+                <img src="Instagram_logo_2022.svg.png" alt="Instagram" class="frame-lingkaran" style="width:32px;height:32px;">
+            </a>
+            <a href="https://twitter.com/_Gh0sttown" class="link-margin">
+                <img src="xlogo.jpg" alt="Twitter" class="frame-lingkaran" style="width:32px;height:32px;">
+            </a>
+        </div>
+        <div class="datentime">
+            <p >28/09/2024 09:01</p>
+        </div>
     </body>
 </html>
